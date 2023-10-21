@@ -1,10 +1,19 @@
 export const Contacts = [
     {
       id: 1,
-      name: 'Vinh Quang',
+      name: 'Minh Quan',
       address: 'USA',
-      img: 'assets/images/StarWars1.jpg',
-      info: 'Chiến tranh giữa các vì sao: Tập I – Hiểm họa bóng ma là một bộ phim sử thi không gian của Mỹ năm 1999 được biên kịch và đạo diễn bởi George Lucas, sản xuất bởi Lucasfilm và phân phối bởi 20th Century Fox.'
-    }
+      img: 'assets/images/Cat1.avif',
+      info: 'Cinema Manager',
+      number: '0902663310'
+    },
+    {
+        id: 2,
+        name: 'Hoang Vu',
+        address: 'Vietnam',
+        img: 'assets/images/Cat2.webp',
+        info: 'Employee',
+        number: '0903562708'
+      }
 ];
 export default Contacts;

@@ -21,7 +21,7 @@ export default function PlayersPresentation({players}) {
                             <p><button>Detail</button></p>
                         </Link> */}
                         <Link to={`/detail/${player.id}`}><p><button>Detail</button></p></Link>
-
+                            
                     </div>
                 </div>
             ))}

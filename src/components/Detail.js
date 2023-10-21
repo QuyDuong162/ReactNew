@@ -8,8 +8,6 @@ export default function Detail() {
         return player.id == userName.id;
     });
 
-  
-
     return(
         <div className="container">
             <div className="product-card">
@@ -20,7 +18,6 @@ export default function Detail() {
                 </div>
                 <div className="product-details">
                     <h4>{player.nation}</h4>
-                    <p>{player.nation}</p>
                     <p>{player.info}</p>
                     <div className="product-bottom-details"></div>
 

@@ -17,15 +17,15 @@ export default function PlayersPresentation({players}) {
                         <p className='title'>{player.year}</p>
                         <p>Nation: {player.nation}</p>
                         {/* <p><button onClick={()=>{setPlayer(player)}}><a href='#popup1' id ='openPopUp'>Detail</a></button></p> */}
-                        <Link to={`detail/${player.id}`}> 
+                        {/* <Link to={`detail/${player.id}`}> 
                             <p><button>Detail</button></p>
-                        </Link>
-                        
+                        </Link> */}
+                        <Link to={`/detail/${player.id}`}><p><button>Detail</button></p></Link>
 
                     </div>
                 </div>
             ))}
-            <div id="popup1" className="overlay">
+            {/* <div id="popup1" className="overlay">
                     <div className="popup">
                         <img src={player.img}/>
                         <h2>{player.name}</h2>
@@ -34,7 +34,7 @@ export default function PlayersPresentation({players}) {
                             {player.info}
                         </div>
                     </div>
-                </div>
+                </div> */}
         </div>
   )
 }

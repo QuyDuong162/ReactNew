@@ -6,7 +6,6 @@ import Footer from './components/Footer';
 import Player from './components/Player';
 import Contact from './components/Contact'
 import Detail from './components/Detail'
-
 import {
   Routes,
   Route,
@@ -18,13 +17,11 @@ function App() {
   return (
     <div>
       <Navigation/>
-      <Main2/>
       <Routes>
+        <Route path='/' element={<Main2/>}></Route>
         <Route path='/detail/:id' element={<Detail/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
       </Routes>
-
-
       <Footer/>
     </div>
    

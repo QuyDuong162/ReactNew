@@ -10,7 +10,7 @@ export default class Navigation extends Component {
         <div className="bg-nav">
           <ul className="nav">
             <li>
-              <a className="naviga"><i class="fa-solid fa-house" ></i><Link to = '/'> Home </Link></a>
+              <a className="naviga"><i class="fa-solid fa-house" ></i><Link to = '/' style={{ color: 'black' }}> Home </Link></a>
             </li>
             <li>
               <a className="naviga"><i class="fa-regular fa-address-card"></i> About </a>
@@ -19,7 +19,7 @@ export default class Navigation extends Component {
               <a className="naviga"><i class="fa-solid fa-square-up-right"></i> News </a>
             </li>
             <li>
-              <a className="naviga"><i class="fa-solid fa-address-book"></i><Link to ='/contact'> Contacts </Link></a>
+              <a className="naviga"><i class="fa-solid fa-address-book"></i><Link to ='/contact' style={{ color: 'black' }}> Contact </Link></a>
             </li>
           </ul>
         </div>
